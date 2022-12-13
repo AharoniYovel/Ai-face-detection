@@ -6,8 +6,15 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    background: rgb(160, 194, 164);
 }
 
 canvas {
     position: absolute;
+}
+
+video {
+    border-radius: 30%;
+    -webkit-box-shadow: 3px 3px 19px 18px #000000;
+    box-shadow: 3px 3px 19px 18px #000000;
 }
